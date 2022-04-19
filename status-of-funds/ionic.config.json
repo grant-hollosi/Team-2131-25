@@ -1,0 +1,7 @@
+{
+  "name": "Status of Funds",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
