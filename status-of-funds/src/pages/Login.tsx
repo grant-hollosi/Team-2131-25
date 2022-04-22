@@ -19,7 +19,10 @@ const Login: React.FC = () => {
       <IonContent fullscreen class='container'>
           <div className='vertical-center'>
           <IonInput clearInput 
-          class='login-text' placeholder='password' value={input}
+          type='password'
+          class='login-text' 
+          placeholder='password' 
+          value={input}
           onIonChange={(e) => {
               setInput((e.target as HTMLInputElement).value)
             }
